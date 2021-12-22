@@ -1,0 +1,73 @@
+{
+	"microsoft": {
+    	"driver":"com.microsoft.sqlserver.jdbc.SQLServerDriver",
+    	"connector":"jdbc",
+    	"supplier":"sqlserver",
+    	"instance":"X3V12",
+        "host": "10.1.10.130",
+        "port" : "1433",
+        "database":"x3v12prod",
+        "schema":"PROD",
+        "user" : "sa",
+        "password": "Tiger2020"
+    },
+    "postgres": {
+    	"driver":"org.postgresql.Driver",
+		"connector" : "jdbc",
+		"supplier" : "postgresql",
+		"host" : "10.1.10.170",
+		"port" : "5432",
+		"database" : "orkaisse",
+		"user" :  "root",
+		"password" : "RavatE"
+    },
+    "local": {
+    	"driver":"org.postgresql.Driver",
+		"connector" : "jdbc",
+		"supplier" : "postgresql",
+		"host" : "10.1.11.30",
+		"port" : "5432",
+		"database" : "sapoty",
+		"user" :  "suntzu974",
+		"password" : "postgres"
+    },
+    "ingres": {
+    	"driver":"com.ingres.jdbc.IngresDriver",
+		"connector" : "jdbc",
+		"supplier" : "ingres",
+		"host" : "10.1.0.1",
+		"port" : "II7",
+		"database" : "dbgc0",
+		"user" :  "ingres",
+		"password" : "ingres"
+    },
+        "o4hq": {
+    	"driver":"org.postgresql.Driver",
+		"connector" : "jdbc",
+		"supplier" : "postgresql",
+		"host" : "10.1.10.92",
+		"port" : "5432",
+		"database" : "prod",
+		"user" :  "orka",
+		"password" : "orika"
+    },
+		"upload" : {
+			"host" : "165.169.247.43",
+			"port" : "6412",
+			"protocol":"sftp",
+			"user" :  "ravate02",
+			"password" : "g662nCd02Y",
+			"remotedirectory" : "/Stock"
+	   	},
+		"download" : {
+			"host" : "10.1.0.1",
+			"port" : "22",
+			"protocol":"sftp",
+			"user" :  "ingres",
+			"password" : "ingres",
+			"remotedirectory" : "/WRK/ECOMRUN"
+	   	},
+    
+    "port": 50001,
+    "log":"rgpd.log"
+}
