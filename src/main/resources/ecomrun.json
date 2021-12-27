@@ -9,7 +9,7 @@
         "database":"x3v12prod",
         "schema":"PROD",
         "user" : "sa",
-        "password": "Tiger2020"
+        "password": ""
     },
     "postgres": {
     	"driver":"org.postgresql.Driver",
@@ -19,7 +19,7 @@
 		"port" : "5432",
 		"database" : "orkaisse",
 		"user" :  "root",
-		"password" : "RavatE"
+		"password" : ""
     },
     "local": {
     	"driver":"org.postgresql.Driver",
@@ -29,7 +29,7 @@
 		"port" : "5432",
 		"database" : "sapoty",
 		"user" :  "suntzu974",
-		"password" : "postgres"
+		"password" : ""
     },
     "ingres": {
     	"driver":"com.ingres.jdbc.IngresDriver",
@@ -39,7 +39,7 @@
 		"port" : "II7",
 		"database" : "dbgc0",
 		"user" :  "ingres",
-		"password" : "ingres"
+		"password" : ""
     },
         "o4hq": {
     	"driver":"org.postgresql.Driver",
@@ -49,14 +49,14 @@
 		"port" : "5432",
 		"database" : "prod",
 		"user" :  "orka",
-		"password" : "orika"
+		"password" : ""
     },
 		"upload" : {
 			"host" : "165.169.247.43",
 			"port" : "6412",
 			"protocol":"sftp",
 			"user" :  "ravate02",
-			"password" : "g662nCd02Y",
+			"password" : "",
 			"remotedirectory" : "/Stock"
 	   	},
 		"download" : {
@@ -64,7 +64,7 @@
 			"port" : "22",
 			"protocol":"sftp",
 			"user" :  "ingres",
-			"password" : "ingres",
+			"password" : "",
 			"remotedirectory" : "/WRK/ECOMRUN"
 	   	},
     
